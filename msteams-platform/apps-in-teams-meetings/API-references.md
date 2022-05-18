@@ -503,7 +503,7 @@ The following table includes the query parameters:
 ```javascript
 microsoftTeams.meeting.getAppContentStageSharingState((err, result) => {
     if (result.isAppSharing) {
-        // Indicates app has permission to share contents to meeting stage.
+        // Indicates app is being shared to meeting stage.
     }
 });
 ```
